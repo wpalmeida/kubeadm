@@ -219,7 +219,7 @@ data:
   hubble-tls-client-ca-files: /var/lib/cilium/tls/hubble/client-ca.crt
   ipam: "cluster-pool"
   ipam-cilium-node-update-rate: "15s"
-  cluster-pool-ipv4-cidr: "10.0.0.0/8"
+  cluster-pool-ipv4-cidr: "10.1.0.0/16"
   cluster-pool-ipv4-mask-size: "24"
   egress-gateway-reconciliation-trigger-interval: "1s"
   enable-vtep: "false"
